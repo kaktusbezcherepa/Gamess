@@ -5,6 +5,7 @@ import { generateRandomNumber, greetings, findLowestThreeNumbers } from '../src/
 const leastCommonMultiple = () => {
   const name = greetings();
   let result = 0;
+  console.log('Find the smallest common multiple of given numbers.');
   while (result < 3) {
     const firstNum = generateRandomNumber(1, 5);
     const secondNum = generateRandomNumber(6, 10);
