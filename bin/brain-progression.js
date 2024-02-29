@@ -28,7 +28,7 @@ const geoProgression = () => {
       console.log(`Let's try again, ${name}!`);
       return;
     }
-    result += 1
+    result += 1;
     console.log('Correct!');
   }
   console.log(`Congratulations, ${name}`);
